@@ -1,4 +1,5 @@
-![shopping](https://github.com/Inetjuhhh/boodschapp/assets/35923627/dec32d4a-a33c-4a51-ae66-d5376ba6cc1c | width=100)
+<img src="https://github.com/Inetjuhhh/boodschapp/assets/35923627/cc593f33-371b-4558-a040-e9891825fbb5" width="100">
+
 
 <b>BoodschApp</b>
 
