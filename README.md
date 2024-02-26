@@ -19,7 +19,7 @@ De app is bedoeld voor gebruikers die graag een lijst willen bij houden van welk
 Boodschappen hebben een naam en een categorie (bijv. fruit, toiletartikelen, snoep, beleg etc...) en daarnaast is er een kolom 'afvinken', waarmee gebruikers het product van hun lijstje kunnen afstrepen.
 Later kunnen gebruikers een eigen account aanmaken en bekijken. Zij kunnen dan alleen de boodschappenlijstjes van hun eigen account bekijken. De database is op deze laatste stap nog niet voorbereid.
 
-<b>Volgorde</b><br>
+<b>Taken en volgorde boodschappen-app</b><br>
 In principe kun je deze applicatie maken in een door jou gewenste volgorde. Wil je dezelfde volgorde als in de lessen WEB aanhouden, dan zijn de volgende stappen een logische volgorde (met mogelijkheid tot afvinken):
 - De database-connectie opbouwen in 'conn.php'.
 
