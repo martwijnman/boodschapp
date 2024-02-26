@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+
+}
+
+.wrapper{
+	width: 75%;
+	margin: 0 auto;
+}
+
+header{
+	background: #A51C30;
+	color: white;
+	padding: 1em 0;
+	text-align: center;
+}
+.logo-header{
+	text-decoration: none;
+	color: white;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+	padding: 1em;
+	border: 1px solid transparent;
+}
+
+nav a:hover{
+	border: 1px dotted white;
+}
+.frontpage{
+	text-align: center;
+	padding: 100px 0;
+}
+
+.boodschappen{
+	text-align: center;
+	padding: 100px 0;
+}
+
+.boodschappen a{
+	margin: 50px;
+}
+footer{
+	background: #A51C30;
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+
+}
