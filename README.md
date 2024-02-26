@@ -1,4 +1,4 @@
-🛒
+![shopping](https://github.com/Inetjuhhh/boodschapp/assets/35923627/dec32d4a-a33c-4a51-ae66-d5376ba6cc1c)
 
 <b>BoodschApp</b>
 
