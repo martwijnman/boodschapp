@@ -1,4 +1,5 @@
-🛒
+<img src="https://github.com/Inetjuhhh/boodschapp/assets/35923627/cc593f33-371b-4558-a040-e9891825fbb5" width="100">
+
 
 
 <b>BoodschApp</b>
@@ -7,7 +8,7 @@ Deze app is bedoeld als project om zelf te oefenen tijdens blok B, WEB. Het slui
 De basis van de pagina is al gelegd. Aan jou om de volgende dingen toe te voegen. Doe dat wanneer je er aan toe bent of wanneer je een les gevolgd hebt over dit onderwerp en je extra wilt oefenen.
 
 <b>Getting started</b>
-- Fork deze repository en clone hem naar je eigen Github account. Zorg dat hij in je Laragon folder komt te staan, zodat je het project kunt openen vanuit je editor.
+- Fork deze repository en clone hem naar je eigen Github account. Zorg dat hij in je Laragon folder komt te staan, zodat je het project kunt openen vanuit je editor. Lukt dit niet met Github Desktop, dan kun je ook de zip openen, uitpakken en in je www-folder zetten.
 - Open je database (PhpMyAdmin of HeidiSQL) en importeer op de aangeleerde manier de database 'boodschappen.sql' vanuit de map 'database'.
 - Hernoem de config.example.php naar config.php
 - Check of de base-url in je bestand 'config.php' klopt met de naam van je applicatie in de www-map.
@@ -31,5 +32,18 @@ In principe kun je deze applicatie maken in een door jou gewenste volgorde. Wil 
 <i>Gebruikers resource </i>
 - Als gebruiker kan ik inloggen in mijn account 'user' en wachtwoord 'password', zodat ik mijn account kan gebruiken.
 - Als gebruiker kan ik mezelf registreren in de applicatie, zodat ik als nieuwe gebruiker gebruik kan maken van de applicatie.
-- Als gebruiker kan ik alleen de boodschappen zien die horen bij mijn account (let op: voeg hiervoor een kolom toe aan de tabel boodschappen, waar je verwijst naar een specifieke user / user id).
-- Als gebruiker kan ik mijn accountgegevens inzien (gebruikersnaam, emailadres). 
+- Als gebruiker kan ik alleen de boodschappen zien die horen bij mijn account (let op: voeg hiervoor een kolom toe aan de tabel boodschappen, waar je verwijst naar een specifieke user / user id), zodat ik mijn gegevens privé blijven.
+- Als gebruiker kan ik mijn accountgegevens inzien (gebruikersnaam, emailadres), zodat ik in beeld heb welke gegevens er van mij zijn opgeslagen.
+- Als gebruiker kan ik mijn accountgegevens wijzigen en verwijderen, zodat ik zelf het beheer houdt over mijn gegevens.
+
+
+<b>Mappenopbouw</b><br>
+<i>app/Http/Controllers</i> : Hierin schrijven we de php logica en voeren de we queries uit op de database om gegevens toe te voegen, te wijzigen of te verwijderen. Elke resource heeft een eigen controller. Zowel login als registreren heeft een eigen controller. <br>
+<i>config</i> : In deze map staan de databaseverbinding ('conn.php') en de databasegegevens ('config.php')<br>
+<i>database</i> : In deze map vinden we de eventueel beschikbare database file die we kunnen importeren (.sql aan het eind)<br>
+<i>public_html</i> : In deze map staan de map css met 'style.css' en de eventuele afbeeldingen in de map img.<br>
+<i>resources/views</i> : <br>
+- In deze map staan alle html-files (wel met php-extensie). Elke resource heeft een eigen map met daarin een index.php (voor de totale lijst/tabel), create.php (voor nieuw toevoegen), edit.php (voor bestaand wijzigen). 
+- Daarnaast zie je er een map 'Componenten', waarin we files vinden die op elke pagina herbruikt wordt, en bijv. steeds ingeladen (head.php, header.php, footer.php).
+- In de hoofdmap van resources/views zie je daarnaast html-pagina's die niet bij een specifieke resource horen, zoals de algemene index.php, login.php, registreer.php etc.
+
