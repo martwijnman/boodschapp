@@ -36,12 +36,12 @@ In principe kun je deze applicatie maken in een door jou gewenste volgorde. Wil 
 - Als gebruiker kan ik mijn accountgegevens wijzigen en verwijderen, zodat ik zelf het beheer houdt over mijn gegevens.
 
 
-<b>Mappenopbouw</b>
-<i>app/Http/Controllers</i> : Hierin schrijven we de php logica en voeren de we queries uit op de database om gegevens toe te voegen, te wijzigen of te verwijderen. Elke resource heeft een eigen controller. Zowel login als registreren heeft een eigen controller.
-<i>config</i> : In deze map staan de databaseverbinding ('conn.php') en de databasegegevens ('config.php')
-<i>database</i> : In deze map vinden we de eventueel beschikbare database file die we kunnen importeren (.sql aan het eind)
-<i>public_html</i> : In deze map staan de map css met 'style.css' en de eventuele afbeeldingen in de map img.
-<i>resources/views</i> : 
+<b>Mappenopbouw</b><br>
+<i>app/Http/Controllers</i> : Hierin schrijven we de php logica en voeren de we queries uit op de database om gegevens toe te voegen, te wijzigen of te verwijderen. Elke resource heeft een eigen controller. Zowel login als registreren heeft een eigen controller. <br>
+<i>config</i> : In deze map staan de databaseverbinding ('conn.php') en de databasegegevens ('config.php')<br>
+<i>database</i> : In deze map vinden we de eventueel beschikbare database file die we kunnen importeren (.sql aan het eind)<br>
+<i>public_html</i> : In deze map staan de map css met 'style.css' en de eventuele afbeeldingen in de map img.<br>
+<i>resources/views</i> : <br>
 - In deze map staan alle html-files (wel met php-extensie). Elke resource heeft een eigen map met daarin een index.php (voor de totale lijst/tabel), create.php (voor nieuw toevoegen), edit.php (voor bestaand wijzigen). 
 - Daarnaast zie je er een map 'Componenten', waarin we files vinden die op elke pagina herbruikt wordt, en bijv. steeds ingeladen (head.php, header.php, footer.php).
 - In de hoofdmap van resources/views zie je daarnaast html-pagina's die niet bij een specifieke resource horen, zoals de algemene index.php, login.php, registreer.php etc.
