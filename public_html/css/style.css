@@ -23,6 +23,15 @@ header{
 	text-decoration: none;
 	color: white;
 }
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.logo-name img{
+    margin-right: 50px;
+}
 .flex{
 	display: flex;
 	justify-content: space-between;
@@ -43,9 +52,10 @@ nav a:hover{
 	text-align: center;
 	padding: 100px 0;
 }
-
+h2{
+    margin: 20px 0;
+}
 .boodschappen{
-	text-align: center;
 	padding: 100px 0;
 }
 

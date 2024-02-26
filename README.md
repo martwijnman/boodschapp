@@ -1,5 +1,6 @@
 🛒
 
+
 <b>BoodschApp</b>
 
 Deze app is bedoeld als project om zelf te oefenen tijdens blok B, WEB. Het sluit naadloos aan bij de module WDV-III & DBS-I.
