@@ -1,3 +1,5 @@
+🛒
+
 <b>BoodschApp</b>
 
 Deze app is bedoeld als project om zelf te oefenen tijdens blok B, WEB. Het sluit naadloos aan bij de module WDV-III & DBS-I.
@@ -10,12 +12,12 @@ De basis van de pagina is al gelegd. Aan jou om de volgende dingen toe te voegen
 - Check of de base-url in je bestand 'config.php' klopt met de naam van je applicatie in de www-map.
 - Bestudeer de mappen en bestanden in je project om te zien hoe het project is opgebouwd.
 
-<b>De BoodschApp</b>
+<b>De BoodschApp</b><br>
 De app is bedoeld voor gebruikers die graag een lijst willen bij houden van welke boodschappen zij in de supermarkt willen halen. Gebruikers kunnen boodschappen toevoegen, wijzigen en verwijderen.
 Boodschappen hebben een naam en een categorie (bijv. fruit, toiletartikelen, snoep, beleg etc...) en daarnaast is er een kolom 'afvinken', waarmee gebruikers het product van hun lijstje kunnen afstrepen.
 Later kunnen gebruikers een eigen account aanmaken en bekijken. Zij kunnen dan alleen de boodschappenlijstjes van hun eigen account bekijken. De database is op deze laatste stap nog niet voorbereid.
 
-<b>Volgorde</b>
+<b>Volgorde</b><br>
 In principe kun je deze applicatie maken in een door jou gewenste volgorde. Wil je dezelfde volgorde als in de lessen WEB aanhouden, dan zijn de volgende stappen een logische volgorde (met mogelijkheid tot afvinken):
 - De database-connectie opbouwen in 'conn.php'.
 
