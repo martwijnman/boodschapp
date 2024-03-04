@@ -8,11 +8,12 @@ Deze app is bedoeld als project om zelf te oefenen tijdens blok B, WEB. Het slui
 De basis van de pagina is al gelegd. Aan jou om de volgende dingen toe te voegen. Doe dat wanneer je er aan toe bent of wanneer je een les gevolgd hebt over dit onderwerp en je extra wilt oefenen.
 
 <b>Getting started</b>
-- Fork deze repository en clone hem naar je eigen Github account. Zorg dat hij in je Laragon folder komt te staan, zodat je het project kunt openen vanuit je editor. Lukt dit niet met Github Desktop, dan kun je ook de zip openen, uitpakken en in je www-folder zetten.
-- Open je database (PhpMyAdmin of HeidiSQL) en importeer op de aangeleerde manier de database 'boodschappen.sql' vanuit de map 'database'.
-- Hernoem de config.example.php naar config.php
-- Check of de base-url in je bestand 'config.php' klopt met de naam van je applicatie in de www-map.
-- Bestudeer de mappen en bestanden in je project om te zien hoe het project is opgebouwd.
+1. Fork deze repository en clone hem naar je eigen Github account. Zorg dat hij in je Laragon folder komt te staan, zodat je het project kunt openen vanuit je editor. Lukt dit niet met Github Desktop, dan kun je ook de zip openen, uitpakken en in je www-folder zetten.
+2. Open je database (PhpMyAdmin of HeidiSQL) en importeer op de aangeleerde manier de database 'boodschappen.sql' vanuit de map 'database'.
+3. Hernoem de config.example.php naar config.php
+4. Check of de base-url in je bestand 'config.php' klopt met de naam van je applicatie in de www-map.
+5. Bestudeer de mappen en bestanden in je project om te zien hoe het project is opgebouwd.
+6. Navigeer in de browser naar localhost/boodschapp en klik door naar resources/views/index.php om de applicatie te bekijken. 
 
 <b>De BoodschApp</b><br>
 De app is bedoeld voor gebruikers die graag een lijst willen bij houden van welke boodschappen zij in de supermarkt willen halen. Gebruikers kunnen boodschappen toevoegen, wijzigen en verwijderen.
