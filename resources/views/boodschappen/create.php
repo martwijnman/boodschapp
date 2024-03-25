@@ -15,6 +15,18 @@
         <div class="wrapper boodschappen">
             <h1>BoodschApp / Nieuwe boodschap toevoegen</h1>
             <p>Dit wordt de pagina waarop je een nieuwe boodschap toevoegt</p>
+            <form action="../../../app/Http/Controllers/boodschappenControllers.php">
+                
+
+                <label for="boodschap">boodschap</label>
+                <input type="text" name="boodschap">
+
+                <label for="categorie">categorie</label>
+                <input type="text" name="categorie">
+
+                <input type="hidden" name="action" value="create">
+                <input type="submit" value="verzenden">
+            </form>
         </div>
     </div>
 
