@@ -7,7 +7,7 @@ if ($action == "update"){
     $boodschap = $_POST['boodschap'];
     $categorie = $_POST['categorie'];
     require_once "../../../config/conn.php";
-    $query = "UPDATE berichten SET boodschap = :boodschap, categorie = :categorie WHERE id = :id";
+    $query = "UPDATE boodschappen SET boodschap = :boodschap, categorie = :categorie WHERE id = :id";
     $statement = $conn->prepare($query);
     $statement->execute([
         ":id" => $id,
@@ -18,24 +18,27 @@ if ($action == "update"){
 if($action == "delete"){
     $id = $_POST['id'];
     require_once "../../../config/conn.php";
-    $query = "DELETE FROM berichten WHERE id = :id";
+    $query = "DELETE FROM boodschappen WHERE id = :id";
     $statement = $conn->prepare($query);
     $statement->execute([
-        ":id" => $id,
+            ":id" => $id,
     ]);
 }
 if($action == "create"){
     $boodschap = $_POST['boodschap'];
     $categorie = $_POST['categorie'];
+   
     require_once "../../../config/conn.php";
-    $query = "INSERT INTO (boodschap, categorie) VALUES(:boodschap, :categorie)";
+    $query = "INSERT INTO boodschappen (boodschap, categorie) VALUES(:boodschap, :categorie)";
     $statement = $conn->prepare($query);
     $statement->execute([
         ":boodschap" => $boodschap,
-        ":categorie" => $categorie
+        ":categorie" => $categorie,
     ]);
 }
     
 
+
+?>
 
 ?>

@@ -1,7 +1,7 @@
 <?php 
 //dit wordt de pagina waarop je je boodschappen kunt aanpassen
 ?>
- <form action="../../../app/Http/Controllers/boodschappenControllers.php">
+ <form action="../../../app/Http/Controllers/boodschappenController.php" method="POST">
  <label for="id">id</label>
                 <input type="text" name="id" value="<?php echo $_GET['id'];?>">
 
@@ -14,7 +14,7 @@
                 <input type="hidden" name="action" value="update">
                 <input type="submit" value="verzenden">
             </form>
-            <form action="../../../app/Http/Controllers/boodschappenControllers.php">
+            <form action="../../../app/Http/Controllers/boodschappenController.php" method="POST">
             <label for="id">id</label>
                 <input type="text" name="id" value="<?php echo $_GET['id'];?>">
             <input type="hidden" name="action" value="delete">

@@ -15,7 +15,7 @@
         <div class="wrapper boodschappen">
             <h1>BoodschApp / Nieuwe boodschap toevoegen</h1>
             <p>Dit wordt de pagina waarop je een nieuwe boodschap toevoegt</p>
-            <form action="../../../app/Http/Controllers/boodschappenControllers.php">
+            <form action="../../../app/Http/Controllers/boodschappenController.php" method="POST">
                 
 
                 <label for="boodschap">boodschap</label>
