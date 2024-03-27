@@ -55,6 +55,18 @@ nav a:hover{
 h2{
     margin: 20px 0;
 }
+th{
+	background-color: gray;
+}
+tr:first-child{
+	background-color: gray;
+}
+tr:nth-child(odd){
+	background-color: grey;
+}
+tr:hover{
+	background-color: #A51C30;
+}
 .boodschappen{
 	padding: 100px 0;
 }
